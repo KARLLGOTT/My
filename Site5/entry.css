@@ -1,0 +1,859 @@
+.logo {
+    margin-left: 91px;
+    margin-top: 51px;
+    float: left;
+}
+
+.ul-links {
+    position: relative;
+    margin-top: 72px;
+    margin-left: 245px;
+    float: left;
+    padding-left: 0px;
+    z-index: 30;
+}
+
+ul.ul-links li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 80px;
+    z-index: 30;
+}
+
+.links {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #C3B9B5;
+    z-index: 30;
+}
+
+.links:hover {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropbtn {
+    background-color: #FFFFFF;
+    color: #C3B9B5;
+    border: none;
+}
+
+.dropbtn:hover {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.dropdown-content {
+    display: none !important;
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    margin-left: 162%;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+}
+
+.dropdown-content a {
+    color: #080606;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown-content a:hover {
+    color: #080606;
+    font-weight: 600;
+    margin-left: 15px;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+dialog {
+    background: #FFFFFF;
+    width: 400px;
+    height: 443px;
+    border-radius: 20px;
+    margin-top: 100px;
+    z-index: 200;
+    overflow-y: hidden;
+    border: none;
+}
+
+dialog::-webkit-backdrop {
+    background-color: #b6b6b6;
+    opacity: 0.4;
+}
+
+dialog::backdrop {
+    background-color: #b6b6b6;
+    opacity: 0.4;
+}
+
+.town-main {
+    font-size: 20px;
+    color: #FFC59E;
+    border: none;
+}
+
+.town-main:hover {
+    cursor: url(img/Hand.png), auto !important;
+    color: #59443F;
+}
+
+.town:hover {
+    cursor: url(img/Hand.png), auto !important;
+    color: #59443F;
+    background-image: url(img/Facebook\ Places\ \(2\).png);
+}
+
+.town {
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    color: #FFC59E;
+    background-color: #fff;
+    background-image: url(img/Facebook\ Places.png);
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 72px;
+    margin-left: 85%;
+    padding-left: 50px;
+    z-index: 3;
+}
+
+.town:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: start;
+}
+
+#city input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+} 
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 254, 254, 0.96);
+    -webkit-box-shadow: 0px 4px 10px rgba(8, 6, 6, 0.1);
+            box-shadow: 0px 4px 10px rgba(8, 6, 6, 0.1);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    vertical-align: middle;
+    z-index: 30;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 33;
+    padding-top: 356px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 6, 6, 0.5);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 400px !important;
+    height: 368px;
+    border-radius: 20px !important;
+}
+
+.modal-content2 {
+    height: 478px;
+}
+
+.close2 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 351px;
+    padding-top: 10px;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.close3 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 351px;
+    padding-top: 10px;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.num {
+    float: left;
+    width: 50px !important;
+    height: 57px;
+    margin-right: 24px;
+    margin-top: 32px;
+    background: #FFFFFF;
+    border: 1px solid #EDE9E8 !important;
+    border-radius: 20px !important;
+}
+
+.countdown {
+    font-family: sans-serif;
+    color: #C3B9B5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+}
+
+.countdown-number {
+    padding-top: 16px;
+    display: inline-block;
+}
+
+.countdown-time {
+    display: inline-block;
+}
+
+
+.deadline-message {
+    display: none;
+}
+
+.visible {
+    display: block;
+    padding-top: 16px;
+    padding-left: 133px;
+}
+
+.visible a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #C3B9B5;
+    font-weight: 400;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.visible a:hover {
+    color: #C3B9B5;
+}
+
+.hidden {
+    display: none;
+}
+
+.back2 {
+font-family: sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+margin-top: 32px;
+}
+
+.back2 a {
+    text-decoration: none;
+    color: #FFC59E;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.back2 a:hover {
+    color: #FFC59E;
+}
+
+.enter-dialog {
+    padding-top: 16px;
+    font-family: 'SchoolBook';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #080606;
+}
+
+.tel-modal2 {
+    width: 344px !important;
+    height: 57px;
+    margin-top: 32px;
+    margin-left: 30px;
+    border: 1px solid #EDE9E8 !important;
+    border-radius: 20px !important;
+}
+
+.further3 {
+    margin-top: 32px !important;
+    margin-left: 58px !important;
+}
+
+.proceed-btn3 {
+    width: 284px;
+    height: 67px;
+    border: hidden;
+    border-radius: 33px;
+    background-color: #EDE9E8;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.p-btn3 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.p-btn3:hover {
+    color: #FFFFFF;
+}
+
+.main {
+    height: 915px;
+}
+
+.back {
+    margin-top: 240px;
+    margin-left: 41%;
+}
+
+.link-history {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFC59E;
+}
+
+.bl1 {
+    position: relative;
+    z-index: 10;
+   
+}
+
+.bl2 {
+    position: absolute;
+    margin-top: -525px;
+    opacity: 0;
+}
+
+.close {
+    margin-left: 350px;
+}
+
+.close:hover {
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.enter {
+    width: 183px;
+    height: 80px;
+    font-family: 'SchoolBook';
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-left: 91px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.tel-modal {
+    width: 344px;
+    height: 57px;
+    margin-top: 32px;
+    border: 1px solid #C3B9B5 !important;
+    border-radius: 20px !important;
+  }
+
+.further {
+    margin-top: 32px !important;
+    margin-left: 41px !important;
+    margin-bottom: 32px !important;
+    padding: 0;
+}
+
+.no-reg {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #FFC59E;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.no-reg:hover {
+    color: #FFC59E; 
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.entryH {
+    margin-top: 61px;
+    margin-left: 230px;
+}
+
+.entry-h {
+    width: 360px;
+    font-family: 'SchoolBook';
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 110px;
+    letter-spacing: 0px;
+    text-align: left;
+    float: left;
+    color: #080606;
+}
+
+.dial {
+    margin-left: 33%;
+    width: 909px !important;
+    height: 85px;
+    border: 1px solid #C3B9B5 !important;
+    border-radius: 20px !important;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #080606;
+    cursor: url(img/Hand.png), auto;
+}
+
+.inp {
+    display: block;
+    border: none;
+    padding-left: 32px !important;
+    margin-top: 31px;
+    border-color: #FFFFFF;
+    width: 89%;
+    float: left;
+}
+
+.inp2 {
+    width: 85%;
+}
+
+.inp3 {
+    color: #C3B9B5;
+    margin-top: -220px;
+    height: 57px;
+}
+
+.inp4 {
+    margin-top: -139px !important;
+    width: 442px !important;
+    float: left;
+    height: 57px;
+}
+
+.inp5 {
+    margin-left: 60.6%;
+}
+
+.inp6 {
+    margin-top: -62px;
+    height: 171px !important;
+}
+
+/* .inp7 {
+    padding-left: 73px !important;
+} */
+
+.dial2 {
+    margin-top: 24px;
+}
+
+.foot-form {
+    position: absolute;
+    width: 909px;
+    height: 294px;
+    left: 41.1%;
+    top: 679px;
+    background: #EDE9E8;
+    border-radius: 20px;
+}
+
+.credit {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 426px;
+    height: 57px;
+    border-radius: 20px;
+    padding-left: 16px;
+    cursor: url(img/Hand.png), auto;
+    -moz-appearance: textfield;
+}
+
+.credit::-webkit-inner-spin-button { 
+    display: none;
+  }
+
+.form-p {
+    margin-top: 24px;
+    margin-left: 32px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #59443F;
+}
+
+.proceed-btn {
+    width: 284px;
+    height: 67px;
+    margin-top: 5px;
+    margin-left: 312px;
+    border: hidden;
+    border-radius: 33px;
+    background-color: #EDE9E8;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.p-btn {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.p-btn:hover {
+    color: #FFFFFF;
+}
+
+.proceed-btn2 {
+    background-color: #FFC59E;
+    margin-top: 176px;
+    margin-left: 33%;
+}
+
+.foot {
+    width: 100%;
+    height: 469px;
+    margin-top: 561px;
+    background-color: #59443F;
+}
+
+.foot-logo {
+    padding-top: 80px;
+    padding-left: 230px;
+    float: left;
+}
+
+.text-foot {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.foot-h {
+    font-family: 'SchoolBook';
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 76px;
+    padding-left: 342px;
+}
+
+.foot-p {
+    padding-left: 342px;
+}
+
+.politic {
+    padding-top: 39px;
+    padding-left: 342px;
+    float: left;
+}
+
+.links-foot {
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto;
+}
+
+.links-foot2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 192px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 52px;
+    margin-left: 634px;
+}
+
+.links-foot:hover {
+    color: #FFFFFF;
+}
+
+.links-foot3 {
+    margin-left: 926px;
+    margin-top: -209px;
+}
+
+.app2 {
+    position: relative;
+    margin-top: -332px;
+    margin-left: 67%;
+}
+
+.icon2 {
+    position: relative;
+    padding-top: 40px;
+    margin-left: 67%;
+}
+
+.email {
+    margin-left: 67%;
+    margin-top: 39px;
+}
+
+.made {
+    margin-left: 67%;
+    margin-top: 75px;
+}
+
+.heart {
+    vertical-align: middle;
+    margin-left: -160px;
+    margin-top: -7px;
+}
+
+@media (min-width: 1365px) and (max-width: 1439px) {
+    .town {
+        margin-top: 50px;
+    }
+
+    .inp5 {
+        margin-left: 65.8% !important;
+    }
+
+}
+
+@media (min-width: 1440px) and (max-width: 1500px) {
+    .town {
+        margin-top: 51px;
+    }
+
+   .inp5 {
+        margin-left: 67% !important;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1500px) {
+    .logo {
+        margin-top: 40px;
+        margin-left: 4.3%;
+    }
+
+    .town {
+        margin-left: 79%;
+    }
+
+    .ul-links {
+        margin-top: 57px;
+        margin-left: 13%;
+    }
+
+    ul.ul-links li {
+        padding-left: 40px;
+    }
+
+    .links {
+        font-size: 15px;
+    }
+
+    .modal {
+        padding-top: 85px;
+    }
+
+    .entryH {
+        margin-left: 6%;
+    }
+
+    .dial {
+        width: 700px !important;
+        margin-left: 38%;
+    }
+
+    .inp4 {
+        width: 344px !important;
+    }
+
+    .proceed-btn {
+        margin-left: 214px;
+    }
+
+    .proceed-btn2 {
+        margin-left: 62%;
+    }
+
+    .foot-form {
+        left: 45.2%;
+        width: 703px;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1600px) {
+    .back {
+        margin-left: 44%;
+    }
+
+    .dial {
+        width: 714px;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1800px) {
+
+    .foot-logo {
+        padding-left: 50px;
+    }
+
+    .foot-h {
+        padding-left: 160px;
+    }
+
+    .foot-p {
+        padding-left: 160px;
+    }
+
+    .politic {
+        padding-left: 160px;
+        padding-top: 39px;
+    }
+
+    .links-foot2 {
+        margin-left: 460px;
+    }
+
+    .links-foot3 {
+        margin-left: 735px;
+    }
+
+    .app2 {
+        margin-left: 72%;
+    }
+
+    .icon2 {
+        margin-left: 72%;
+    }
+
+    .email {
+        margin-left: 72%;
+    }
+
+    .made {
+        margin-left: 72%;
+    }
+
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+    .town {
+        margin-left: 68%;
+    }
+
+    .entryH {
+        margin-left: 11%;
+    }
+
+    .dial {
+        width: 700px !important;
+        margin-left: 42%;
+    }
+
+    .inp4 {
+        width: 344px !important;
+    }
+
+     .inp5 {
+        margin-left: 68% !important;
+    }
+
+    .proceed-btn {
+        margin-left: 214px;
+    }
+
+    .proceed-btn2 {
+        margin-left: 62%;
+    }
+
+    .foot-form {
+        left: 45.2%;
+        width: 703px;
+    }
+
+}
+
+@media (min-width: 1601px) and (max-width: 1700px) {
+    .town {
+        margin-left: 70.0%;
+    }
+
+}
+
+@media (min-width: 1501px) and (max-width: 1858px) {
+    .ul-links {
+        margin-left: 7%;
+    }
+
+    .inp5 {
+        margin-left: 66.8% !important;
+    }
+
+}
+
+@media (min-width: 1701px) and (max-width: 1857px) {
+    .town {
+        margin-left: 75%;
+    }
+
+    .inp5 {
+        margin-left: 64.8% !important;
+    }
+
+}
+
+@media (min-width: 1858px) and (max-width: 1870px) {
+    .town {
+        margin-left: 80%;
+    }
+
+}

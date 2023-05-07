@@ -1,0 +1,1057 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.logo {
+    margin-left: 91px;
+    margin-top: 51px;
+    float: left;
+}
+
+.ul-links {
+    position: relative;
+    margin-top: 72px;
+    margin-left: 245px;
+    float: left;
+    padding-left: 0px;
+    z-index: 30;
+}
+
+ul.ul-links li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 80px;
+    z-index: 30;
+}
+
+.links {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #C3B9B5;
+    z-index: 30;
+}
+
+.links:hover {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropbtn {
+    background-color: #FFFFFF;
+    color: #C3B9B5;
+    border: none;
+}
+
+.dropbtn:hover {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.dropdown-content {
+    display: none !important;
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    margin-left: 162%;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+}
+
+.dropdown-content a {
+    color: #080606;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown-content a:hover {
+    color: #080606;
+    font-weight: 600;
+    margin-left: 15px;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+dialog {
+    background: #FFFFFF;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 295px;
+    z-index: 200;
+    overflow-y: hidden;
+    border: none;
+}
+
+dialog::-webkit-backdrop {
+    background-color: #b6b6b6;
+    opacity: 0.4;
+}
+
+dialog::backdrop {
+    background-color: #b6b6b6;
+    opacity: 0.4;
+}
+
+.town-main {
+    font-size: 20px;
+    color: #FFC59E;
+    border: none;
+}
+
+.town-main:hover {
+    cursor: url(img/Hand.png), auto !important;
+    color: #59443F;
+}
+
+.town:hover {
+    cursor: url(img/Hand.png), auto !important;
+    color: #59443F;
+    background-image: url(img/Facebook\ Places\ \(2\).png);
+}
+
+.town {
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    color: #FFC59E;
+    background-color: #fff;
+    background-image: url(img/Facebook\ Places.png);
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 72px;
+    margin-left: 85%;
+    padding-left: 50px;
+    z-index: 3;
+}
+
+.town:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: start;
+}
+
+#city input :active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 254, 254, 0.96);
+    vertical-align: middle;
+    z-index: 30;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 33;
+    padding-top: 356px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 6, 6, 0.5);
+}
+
+/* .modal2 {
+    padding-top: 0px !important;
+} */
+
+.modal2 {
+    padding-top: 408px !important;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 400px !important;
+    height: 368px;
+    border-radius: 20px !important;
+}
+
+.modal-content2 {
+    height: 478px;
+}
+
+.modal-content3 {
+    width: 600px !important;
+    height: 639px;
+}
+
+.modal-content4 {
+    width: 500px !important;
+    height: 264px;
+    /* margin: auto; */
+}
+
+.close2 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 351px;
+    padding-top: 10px;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.close3 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 351px;
+    padding-top: 10px;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.close4 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 560px;
+    padding-top: 0px;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.close5 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 456px;
+    padding-top: 0px;
+}
+
+.close5:hover,
+.close5:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.thanks {
+    width: 309px;
+    height: 50px;
+    margin: 63px auto auto auto;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #080606;
+}
+
+.num {
+    float: left;
+    width: 50px !important;
+    height: 57px;
+    margin-right: 24px;
+    margin-top: 32px;
+    background: #FFFFFF;
+    border: 1px solid #EDE9E8 !important;
+    border-radius: 20px !important;
+}
+
+.countdown {
+    font-family: sans-serif;
+    color: #C3B9B5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+}
+
+.countdown-number {
+    padding-top: 16px;
+    display: inline-block;
+}
+
+.countdown-time {
+    display: inline-block;
+}
+
+
+.deadline-message {
+    display: none;
+}
+
+.visible {
+    display: block;
+    padding-top: 16px;
+    padding-left: 133px;
+}
+
+.visible a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #C3B9B5;
+    font-weight: 400;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.visible a:hover {
+    color: #C3B9B5;
+}
+
+.hidden {
+    display: none;
+}
+
+.back2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.back2 a {
+    text-decoration: none;
+    color: #FFC59E;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.back2 a:hover {
+    color: #FFC59E;
+}
+
+.enter-dialog {
+    padding-top: 16px;
+    font-family: 'SchoolBook';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #080606;
+}
+
+.tel-modal2 {
+    width: 344px !important;
+    height: 57px;
+    margin-top: 32px;
+    margin-left: 30px;
+    border: 1px solid #EDE9E8 !important;
+    border-radius: 20px !important;
+}
+
+.further3 {
+    margin-top: 32px !important;
+    margin-left: 58px !important;
+}
+
+.proceed-btn3 {
+    width: 284px;
+    height: 67px;
+    border: hidden;
+    border-radius: 33px;
+    background-color: #EDE9E8;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.further4 {
+    margin-top: 32px !important;
+    margin-left: 158px !important;
+}
+
+.proceed-btn3 {
+    width: 284px;
+    height: 67px;
+    border: hidden;
+    border-radius: 33px;
+    background-color: #EDE9E8;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.p-btn3 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.p-btn3:hover {
+    color: #FFFFFF;
+}
+
+.text {
+    width: 400px !important;
+    height: 368px;
+    border: 1px solid #EDE9E8;
+    border-radius: 20px;
+    margin-top: 32px;
+    margin-left: 100px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.back {
+    margin-top: 240px;
+    margin-left: 41%;
+}
+
+.link-history {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFC59E;
+}
+
+.ivanova {
+    position: absolute;
+    margin-left: 230px;
+    margin-right: 0px;
+    margin-top: 61px;
+    float: left;
+}
+
+.content {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #C3B9B5;
+    margin-top: 30px;
+}
+
+.ivanova-r {
+    margin-top: 30px;
+    margin-left: 18px;
+    background-color: #FFC59E;
+    cursor: url(img/Hand.png), auto !important;
+    width: 284px;
+    height: 67px;
+    border-radius: 33.5px;
+    border: none;
+    padding: 0;
+}
+
+.r-b {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.r-b2 {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFC59E;
+    background-color: #FFFFFF;
+    margin-top: 136px;
+    margin-left: -248px;
+    border: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.doc {
+    width: 909px;
+    height: 316px;
+    margin-top: 61px;
+    margin-left: 781px;
+}
+
+.ten {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #C3B9B5;
+}
+
+.ivanova-h {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #080606;
+}
+
+.ten2 {
+    color: #000000;
+    line-height: 30px;
+}
+
+.cartochka {
+    border: 1px solid #C3B9B5;
+    border-radius: 20px;
+}
+
+.year {
+    padding-top: 16px;
+    margin-left: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #C3B9B5;
+}
+
+.cvalif {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #080606;
+    padding-top: 4px;
+    margin-left: 12px;
+}
+
+.carousel2 {
+    margin-top: 11px;
+    position: relative;
+    width: 1107px;
+    height: 178px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+}
+
+.carousel2 li {
+    padding-right: 20px;
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 60px;
+    padding: 0;
+    border-radius: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-style: none;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+.prev {
+    left: 1px;
+    top: 11px;
+}
+
+.next {
+    top: 11px;
+    right: 19px;
+    z-index: 3;
+}
+
+.gallery {
+    width: 1106px;
+    height: 178px;
+    overflow: hidden;
+}
+
+.gallery ul {
+    height: 130px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-transition: margin-left 250ms;
+    -o-transition: margin-left 250ms;
+    transition: margin-left 250ms;
+    font-size: 0;
+}
+
+.gallery li {
+    display: inline-block;
+}
+
+.gallery a {
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.gallery a :hover {
+    background-color: #FFC59E;
+}
+
+.null {
+    position: absolute;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    margin-top: -8px;
+    margin-left: 899px;
+    height: 76px;
+    width: 240px;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.reviews {
+    position: relative;
+    margin-top: 175px;
+    margin-left: 781px;
+}
+
+.reviews-h {
+    font-family: 'SchoolBook';
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.reviews-p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #C3B9B5;
+}
+
+.reviews-card {
+    width: 909px;
+    height: 100%;
+    border: 1px solid #EDE9E8;
+    border-radius: 20px;
+    margin-left: 781px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-foto {
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+.smile {
+    position: absolute;
+    margin-top: 37.5px;
+    margin-left: 674px;
+}
+
+.user-p {
+    margin-top: 30px;
+    margin-left: 190px;
+}
+
+.user-h {
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+.user-p2 {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.data {
+    width: 689px;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+.f-a {
+    margin-top: 30px;
+    margin-left: 188px;
+    float: left;
+}
+
+.user-p3 {
+    margin-left: 293px;
+}
+
+.data2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 293px;
+    margin-top: 10px;
+}
+
+.foot {
+    position: relative;
+    width: 100%;
+    height: 469px;
+    margin-top: 154px;
+    background-color: #59443F;
+}
+
+.foot-logo {
+    padding-top: 80px;
+    padding-left: 230px;
+    float: left;
+}
+
+.text-foot {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.foot-h {
+    font-family: 'SchoolBook';
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 76px;
+    padding-left: 342px;
+}
+
+.foot-p {
+    padding-left: 342px;
+}
+
+.politic {
+    padding-top: 39px;
+    padding-left: 342px;
+    float: left;
+}
+
+.links-foot {
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto;
+}
+
+.links-foot2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 192px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 52px;
+    margin-left: 634px;
+}
+
+.links-foot:hover {
+    color: #FFFFFF;
+}
+
+.links-foot3 {
+    margin-left: 926px;
+    margin-top: -209px;
+}
+
+.app2 {
+    position: relative;
+    margin-top: -332px;
+    margin-left: 67%;
+}
+
+.icon2 {
+    position: relative;
+    padding-top: 40px;
+    margin-left: 67%;
+}
+
+.email {
+    margin-left: 67%;
+    margin-top: 39px;
+}
+
+.made {
+    margin-left: 67%;
+    margin-top: 75px;
+}
+
+.heart {
+    vertical-align: middle;
+    margin-left: -160px;
+    margin-top: -7px;
+}
+
+@media (min-width: 1365px) and (max-width: 1439px) {
+    .town {
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 1440px) and (max-width: 1500px) {
+    .town {
+        margin-top: 51px;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1500px) {
+    .logo {
+        margin-top: 40px;
+        margin-left: 4.3%;
+    }
+
+    .town {
+        margin-left: 85%;
+    }
+
+    .ul-links {
+        margin-top: 57px;
+        margin-left: 13%;
+    }
+
+    ul.ul-links li {
+        padding-left: 40px;
+    }
+
+    .links {
+        font-size: 15px;
+    }
+
+    .ivanova {
+        margin-left: 75px;
+    }
+
+    .carousel2 {
+        width: 856px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .gallery {
+        width: 855px;
+    }
+
+    .next {
+        left: 840px;
+    }
+
+    .doc,
+    .reviews,
+    .reviews-card {
+        margin-left: 429px;
+
+    }
+
+    .null {
+        display: none;
+    }
+
+    .line {
+        width: 91%;
+    }
+
+    .modal {
+        padding-top: 85px !important;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1600px) {
+    .back {
+        margin-left: 44%;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1800px) {
+
+    .foot-logo {
+        padding-left: 50px;
+    }
+
+    .foot-h {
+        padding-left: 160px;
+    }
+
+    .foot-p {
+        padding-left: 160px;
+    }
+
+    .politic {
+        padding-left: 160px;
+        padding-top: 39px;
+    }
+
+    .links-foot2 {
+        margin-left: 460px;
+    }
+
+    .links-foot3 {
+        margin-left: 735px;
+    }
+
+    .app2 {
+        margin-left: 72%;
+    }
+
+    .icon2 {
+        margin-left: 72%;
+    }
+
+    .email {
+        margin-left: 72%;
+    }
+
+    .made {
+        margin-left: 72%;
+    }
+
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+    .town {
+        margin-left: 96%;
+    }
+
+
+    .next {
+        left: 850px;
+    }
+
+    .line {
+        width: 85%;
+    }
+
+    .carousel2 {
+        width: 898px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .gallery {
+        width: 897px;
+    }
+
+    .doc,
+    .reviews,
+    .reviews-card {
+        margin-left: 582px;
+
+    }
+
+    .null {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 1601px) and (max-width: 1700px) {
+    .town {
+        margin-left: 82.0%;
+    }
+
+    .next {
+        left: 870px;
+    }
+
+    .carousel2 {
+        width: 1004px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .gallery {
+        width: 918px;
+    }
+
+    .doc,
+    .reviews,
+    .reviews-card {
+        margin-left: 582px;
+
+    }
+
+    .null {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1501px) and (max-width: 1858px) {
+    .ul-links {
+        margin-left: 7%;
+    }
+
+
+}
+
+@media (min-width: 1701px) and (max-width: 1857px) {
+    .town {
+        margin-left: 86%;
+    }
+
+    .next {
+        right: 187px;
+    }
+
+    .carousel2 {
+        width: 1092px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .gallery {
+        width: 1091px;
+    }
+
+}
+
+@media (min-width: 1858px) and (max-width: 1870px) {
+    .town {
+        margin-left: 80%;
+    }
+
+    .next {
+        right: 50px;
+    }
+
+}

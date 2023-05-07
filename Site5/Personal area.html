@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Personal area.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Aibolit/Personal area</title>
+    <link rel="shortcut icon" href="img/Combined Shape.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="img/Combined Shape.png" alt="logo"></a>
+        <ul class="ul-links">
+            <li style="padding-left: 0px;"><span id="cabinet" class="links">ЛИЧНЫЙ КАБИНЕТ</span></li>
+            <li class="links dropdown">
+                <button class="dropbtn">О НАС</button>
+                <div class="dropdown-content">
+                    <a href="therapy.html#5">Услуги и цены</a>
+                    <a href="team.html">Коллектив</a>
+                    <a href="history.html">История компании</a>
+                </div>
+            </li>
+            <li><a class="links" href="news.html">НОВОСТИ И АКЦИИ</a></li>
+            <li><a class="links" href="contacts.html">КОНТАКТЫ</a></li>
+            <li><a class=" links" href="blog.html">БЛОГ</a></li>
+        </ul>
+        <span id="openDialog" class="town"><input id="city" class="town-main" value="ВАШ ГОРОД" readonly></span>
+    </header>
+    <main>
+        <div class="person">
+            Личные данные
+        </div>
+        <div class="name">
+            <h3 id="name" class="name-h">Виктория</h3>
+            <ul class="data">
+                <li><a href="#">ЛИЧНЫЕ ДАННЫЕ</a></li>
+                <li><a href="#2">МОИ ПИТОМЦЫ</a></li>
+                <li><a href="#3">ЗАПИСЬ НА ПРИЕМ</a><span id="rec" class="rec">0</span></li>
+                <li><a href="index.html">ВЫЙТИ</a></li>
+            </ul>
+        </div>
+        <div class="field-data">
+            <img class="my-foto" src="img/фото.png" alt="foto">
+            <div class="field">
+                <p class="field-p">имя</p>
+                <h5 id="name-name" class="fiel-name">Виктория</h5>
+                <p class="field-p">фамилия</p>
+                <h5 id="name2" class="fiel-name">Иванова</h5>
+                <p class="field-p">отчетсво</p>
+                <h5 id="name1" class="fiel-name">Александровна</h5>
+                <p class="field-p">телефон</p>
+                <h5 id="number" class="fiel-name">+38 000 000-00-00</h5>
+            </div>
+            <div class="about-me">
+                <p class="field-p">О себе</p>
+                <h5 class="field-name">Живу в Доброполье, очень люблю животных! Мечтаю завести много зверей и построить
+                    приют. Пока что у меня собака, кошка и рыбки :)</h5>
+            </div>
+            <a class="change" href="index.html#cabinet">изменить</a>
+        </div>
+        <div id="2" class="person person2">
+            Мои питомцы
+        </div>
+        <button class="pets">
+            <img class="pets-logo" src="img/ic_newpets.png" alt="logo-animals">
+            <span class="pets-span">ДОБАВИТЬ НОВОГО ПИТОМЦА</span>
+        </button>
+        <div class="pet1">
+            <img class="my-foto" src="img/Ellipse (3).png" alt="gromopetr">
+            <a class="change" href="#">изменить</a>
+            <div class="field">
+                <h2 class="grom">Громопетр</h2>
+                <p class="field-p field-p-t">тип</p>
+                <h5 class="field-name">Собака</h5>
+                <p class="field-p">пол</p>
+                <h5 class="field-name">Мужской</h5>
+                <p class="field-p">порода</p>
+                <h5 class="field-name">Без породы</h5>
+                <p class="field-p">возраст</p>
+                <h5 class="field-name">1 год 2 месяца</h5>
+            </div>
+            <div id="carousel1" class="carousel1">
+                <button style="cursor: url(img/Hand.png), auto;" class="arrow prev"><img
+                        style="margin-left: -43px; margin-top: -450px; transform: rotate(90deg);" src="img/Oval (2).png"
+                        alt="left arrow"></button>
+                <div class="gallery">
+                    <ul>
+                        <div class="field-p field-p-b">медицинская карта</div>
+                        <li style="margin-bottom: 30px; margin-left: 23px;"><a href="#"><img src="img/ic_pdf.png"
+                                    alt=""></a></li>
+                        <div class="field-p field-p-b">результаты анализов</div>
+                        <li><a href="#"><img src="img/анализ.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/анализ (1).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/анализ (2).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/анализ (3).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/анализ (3).png" alt=""></a></li>
+                    </ul>
+                </div>
+                <button style="cursor: url(img/Hand.png), auto;" class="arrow next"><img
+                        style="margin-top: -40px; margin-left: -43px; transform: rotate(90deg);" src="img/Oval.png"
+                        alt="arrow right"></button>
+            </div>
+            <div class="null">Заглушка</div>
+        </div>
+        <div class="pet1 pet2">
+            <img class="my-foto" src="img/Ellipse (1).png" alt="name pet">
+            <a class="change" href="#">изменить</a>
+            <div class="field">
+                <h2 class="grom">Имя питомца</h2>
+                <p class="field-p field-p-t">тип</p>
+                <h5 class="field-name">Кошка</h5>
+                <p class="field-p">пол</p>
+                <h5 class="field-name">Женский</h5>
+                <p class="field-p">порода</p>
+                <h5 class="fiel-name">Русская голубая</h5>
+                <p class="field-p">возраст</p>
+                <h5 class="field-name">4 месяца</h5>
+            </div>
+            <div class="about-me about-me2">
+                <div class="field-p field-p-b">медицинская карта</div>
+                <p class="field-name">Медицинскую карту заводят при первом посещении клиники и обновляют при каждом
+                    обращении. Здесь вы сможете посмотреть и скачать актуальную карту в формате pdf</p>
+                <div class="field-p field-p-b">результаты анализов</div>
+                <p class="field-name">Пока нет готовых анализов</p>
+            </div>
+        </div>
+        <div id="3" class="person">
+            Запись на прием
+        </div>
+        <div class="pet1 pet2 doctor">
+            <img class="my-foto" src="img/Ellipse (2).png" alt="name pet">
+            <a id="delete" class="change" href="#">отменить<br>
+                прием</a>
+            <div class="field">
+                <p class="field-p">врач</p>
+                <h5 class="field-name fiel-name2">Иванова<br> 
+Ирина Владимировна</h5>
+                <p class="field-p">ветклиника</p>
+                <h5 class="field-name">Айболит на Краснополянской</h5>
+            </div>
+            <div class="about-me doctor2">
+                <div class="field-p field-p-b">питомец</div>
+                <p class="field-name">Громопетр</p>
+                <div class="field-p field-p-b">дата</div>
+                <p class="field-name">15.10.19</p>
+                <div class="field-p field-p-b">время</div>
+                <p class="field-name">15:45</p>
+            </div>
+        </div>
+    </main>
+    <footer class="foot">
+        <img class="foot-logo" src="img/Subtract.png" alt="logo">
+        <div class="text-foot">
+            <h3 class="foot-h">Айболит</h3>
+            <p class="foot-p">ветеринарная клиника</p>
+        </div>
+        <a class="links-foot" href="#">
+            <div class="text-foot politic">
+                Политика<br>
+                конфиденциальности в<br>
+                отношении обработки<br>
+                персональных данных
+            </div>
+        </a>
+        <div class="links-foot2">
+            <a class="links-foot text-foot" href="index.html">Главная</a>
+            <a class="links-foot text-foot" href="therapy.html#5">Услуги и цены</a>
+            <a class="links-foot text-foot" href="history.html">История компании</a>
+            <a class="links-foot text-foot" href="team.html#2">Наши специалисты</a>
+            <a class="links-foot text-foot" href="#">Вакансии</a>
+            <a class="links-foot text-foot" href="#">Реквизиты</a>
+            <a class="links-foot text-foot" href="#">Онлайн-оплата</a>
+        </div>
+        <div class="links-foot2 links-foot3">
+            <a class="links-foot text-foot" href="#">Отзывы</a>
+            <a class="links-foot text-foot" href="contacts.html">Контакты</a>
+            <a class="links-foot text-foot" href="#">Груминг-саллон</a>
+            <a class="links-foot text-foot" href="#">Косметика</a>
+            <a class="links-foot text-foot" href="news.html">Новости и акции</a>
+            <a class="links-foot text-foot" href="blog.html">Блог</a>
+        </div>
+        <div class="app2">
+            <a href="#"><img src="img/Group 5 (2).png" alt="app store"></a>
+            <a href="#"><img src="img/google-play-badge.png" alt="app store"></a>
+        </div>
+        <div class="icon2">
+            <a style="cursor: url(img/Hand.png), auto;padding-right: 50px;" href="https://www.instagram.com/"><img
+                    id="inst" src="img/inst (3).png" alt="instagram"></a>
+            <a style="cursor: url(img/Hand.png), auto;padding-right: 50px;" href="https://ru-ru.facebook.com/"><img
+                    id="fb" src="img/fb (3).png" alt="facebook"></a>
+            <a style="cursor: url(img/Hand.png), auto;padding-right: 50px;" href="https://vk.com/"><img id="vk"
+                    src="img/vk (3).png" alt="vk"></a>
+            <a style="cursor: url(img/Hand.png), auto;" href="https://www.youtube.com/"><img id="youtube"
+                    src="img/youtube (3).png" alt="youtube"></a>
+        </div>
+        <div class="text-foot email">
+            aibolit34.ru<br>
+            aibolit34@gmail.com
+        </div>
+        <div class="text-foot made">
+            Made with&emsp;&ensp;from UnitBean
+            <img class="heart" src="img/whatsapp-black-heart-emoji-11550121966iibkpdanml.png" alt="heart">
+        </div>
+    </footer>
+
+<!-- <script>
+    let res = JSON.parse(localStorage.getItem('data'));
+    let res2 = localStorage.getItem('telephone');
+    let q = (res.find(item => item.id === res2));
+    document.getElementById('name').textContent = q.name;
+    document.getElementById('name-name').textContent = q.name;
+    document.getElementById('name2').textContent = q.name2;
+    document.getElementById('name1').textContent = q.name1;
+    document.getElementById('number').textContent = q.tel;
+</script> -->
+
+    <!-- <script>
+        if (localStorage.getItem('#city') !== null) {
+            document.querySelector('#city').value = localStorage.getItem('#city');
+        } else {
+            document.querySelector('#city').value = `ВАШ ГОРОД`
+        }
+    </script> -->
+
+    <script>
+        /* конфигурация */
+        let height = 70; // ширина картинки
+        let count = 0.4; // видимое количество изображений (шаг прокрутки)
+
+        let list = carousel1.querySelector('ul');
+        let listElems = carousel1.querySelectorAll('li');
+
+        let position = 0; // положение ленты прокрутки
+
+        carousel1.querySelector('.prev').onclick = function () {
+            // сдвиг вверх
+            position += height * count;
+            // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+            position = Math.min(position, 0)
+            list.style.marginTop = position + 'px';
+        };
+
+        carousel1.querySelector('.next').onclick = function () {
+            // сдвиг вниз
+            position -= height * count;
+            // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+            position = Math.max(position, -height * (listElems.length - count));
+            list.style.marginTop = position + 'px';
+        };
+    </script>
+
+    <script>
+        if (localStorage.getItem('#enroll') !== null) {
+            document.querySelector('#rec').innerHTML = localStorage.getItem('#enroll');
+        } else {
+            document.querySelector('#rec').innerHTML = `0`;
+        }
+    </script>
+<!-- 
+    <script>
+        let delet = document.getElementById('delete');
+        delet.addEventListener('click', function () {
+            
+            localStorage.getItem('#enroll');
+            localStorage.removeItem('#enroll');
+            location.reload();
+        })
+    </script> -->
+
+    <script src="PersonalArea.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

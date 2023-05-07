@@ -1,0 +1,774 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.logo {
+    margin-left: 91px;
+    margin-top: 51px;
+    float: left;
+}
+
+.ul-links {
+    position: relative;
+    margin-top: 72px;
+    margin-left: 245px;
+    float: left;
+    padding-left: 0px;
+    z-index: 30;
+}
+
+ul.ul-links li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 80px;
+    z-index: 30;
+}
+
+.links {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #C3B9B5;
+    z-index: 30;
+}
+
+.links:hover {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropbtn {
+    background-color: #FFFFFF;
+    color: #C3B9B5;
+    border: none;
+}
+
+.dropbtn:hover {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.dropdown-content {
+    display: none !important;
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    margin-left: 162%;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+}
+
+.dropdown-content a {
+    color: #080606;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #59443F;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown-content a:hover {
+    color: #080606;
+    font-weight: 600;
+    margin-left: 15px;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+dialog {
+    background: #FFFFFF;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 295px;
+    z-index: 200;
+    overflow-y: hidden;
+    border: none;
+}
+
+dialog::-webkit-backdrop {
+    background-color: #b6b6b6;
+    opacity: 0.4;
+}
+
+dialog::backdrop {
+    background-color: #b6b6b6;
+    opacity: 0.4;
+}
+
+.town-main {
+    font-size: 20px;
+    color: #FFC59E;
+    border: none;
+}
+
+.town-main:hover {
+    cursor: url(img/Hand.png), auto !important;
+    color: #59443F;
+}
+
+.town:hover {
+    cursor: url(img/Hand.png), auto !important;
+    color: #59443F;
+    background-image: url(img/Facebook\ Places\ \(2\).png);
+}
+
+.town {
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    color: #FFC59E;
+    background-color: #fff;
+    background-image: url(img/Facebook\ Places.png);
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 72px;
+    margin-left: 85%;
+    padding-left: 50px;
+    z-index: 3;
+}
+
+.town:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: start;
+}
+
+#city input :active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 254, 254, 0.96);
+    vertical-align: middle;
+    z-index: 30;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 33;
+    padding-top: 356px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 6, 6, 0.5);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 400px !important;
+    height: 368px;
+    border-radius: 20px !important;
+}
+
+.modal-content2 {
+    height: 478px;
+}
+
+.close2 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 351px;
+    padding-top: 10px;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.close3 {
+    color: #C3B9B5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 351px;
+    padding-top: 10px;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.num {
+    float: left;
+    width: 50px !important;
+    height: 57px;
+    margin-right: 24px;
+    margin-top: 32px;
+    background: #FFFFFF;
+    border: 1px solid #EDE9E8 !important;
+    border-radius: 20px !important;
+}
+
+.countdown {
+    font-family: sans-serif;
+    color: #C3B9B5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+}
+
+.countdown-number {
+    padding-top: 16px;
+    display: inline-block;
+}
+
+.countdown-time {
+    display: inline-block;
+}
+
+
+.deadline-message {
+    display: none;
+}
+
+.visible {
+    display: block;
+    padding-top: 16px;
+    padding-left: 133px;
+}
+
+.visible a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #C3B9B5;
+    font-weight: 400;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.visible a:hover {
+    color: #C3B9B5;
+}
+
+.hidden {
+    display: none;
+}
+
+.back2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.back2 a {
+    text-decoration: none;
+    color: #FFC59E;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.back2 a:hover {
+    color: #FFC59E;
+}
+
+.enter-dialog {
+    padding-top: 16px;
+    font-family: 'SchoolBook';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #080606;
+}
+
+.tel-modal2 {
+    width: 344px !important;
+    height: 57px;
+    margin-top: 32px;
+    margin-left: 30px;
+    border: 1px solid #EDE9E8 !important;
+    border-radius: 20px !important;
+}
+
+.further3 {
+    margin-top: 32px !important;
+    margin-left: 58px !important;
+}
+
+.proceed-btn3 {
+    width: 284px;
+    height: 67px;
+    border: hidden;
+    border-radius: 33px;
+    background-color: #EDE9E8;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.p-btn3 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.p-btn3:hover {
+    color: #FFFFFF;
+}
+
+.team {
+    position: absolute;
+    margin-left: 230px;
+    margin-right: 0px;
+    margin-top: 305px;
+    width: 389px;
+    height: 220px;
+}
+
+.team-h {
+    margin: 0;
+    font-family: 'SchoolBook';
+    font-size: 80px;
+    color: #080606;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.content {
+    padding-top: 260px;
+    padding-left: 0px;
+}
+
+.content a:hover {
+    padding-left: 20px;
+}
+
+.content a {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #C3B9B5;
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto !important;
+}
+
+.content a:hover {
+    color: #59443F;
+    font-weight: 700;
+}
+
+.content li {
+    width: 493px;
+    height: 40px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.description {
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 305px;
+    height: 100%;
+}
+
+.description-cl {
+    width: 909px;
+    height: 550px;
+    font-family: 'SchoolBook';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #080606;
+    margin-top: 50px;
+}
+
+.description-cl-h {
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.description-cl-h2 {
+    margin-top: 100px;
+}
+
+.fotos {
+    margin-top: 80px;
+}
+
+.cart-doctor {
+    width: 442px;
+    height: 255px;
+    -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.cart-doctor:nth-child(odd) {
+    margin-right: 25px;
+}
+
+.foto-doctor {
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+.foto-p-doctor {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #C3B9B5;
+    margin-top: 17px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.foto-h-doctor {
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #080606;
+}
+
+.foto-p-doctor2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.foto-h-doctor2 {
+    margin-top: 10px;
+}
+
+.experience {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #FFC59E;
+    margin-top: 180px;
+    margin-left: 55px;
+}
+
+.foot {
+    position: absolute;
+    width: 100%;
+    height: 469px;
+    top: 2427px;
+    background-color: #59443F;
+}
+
+.foot-logo {
+    padding-top: 80px;
+    padding-left: 230px;
+    float: left;
+}
+
+.text-foot {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.foot-h {
+    font-family: 'SchoolBook';
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 76px;
+    padding-left: 342px;
+}
+
+.foot-p {
+    padding-left: 342px;
+}
+
+.politic {
+    padding-top: 39px;
+    padding-left: 342px;
+    float: left;
+}
+
+.links-foot {
+    text-decoration: none;
+    cursor: url(img/Hand.png), auto;
+}
+
+.links-foot2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 192px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 52px;
+    margin-left: 634px;
+}
+
+.links-foot:hover {
+    color: #FFFFFF;
+}
+
+.links-foot3 {
+    margin-left: 926px;
+    margin-top: -209px;
+}
+
+.app2 {
+    position: relative;
+    margin-top: -332px;
+    margin-left: 67%;
+}
+
+.icon2 {
+    position: relative;
+    padding-top: 40px;
+    margin-left: 67%;
+}
+
+.email {
+    margin-left: 67%;
+    margin-top: 39px;
+}
+
+.made {
+    margin-left: 67%;
+    margin-top: 75px;
+}
+
+.heart {
+    vertical-align: middle;
+    margin-left: -160px;
+    margin-top: -7px;
+}
+
+@media (min-width: 1365px) and (max-width: 1439px) {
+    .town {
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 1440px) and (max-width: 1500px) {
+    .town {
+        margin-top: 51px;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1500px) {
+    .logo {
+        margin-top: 40px;
+        margin-left: 4.3%;
+    }
+
+    .town {
+        margin-left: 85%;
+    }
+
+    .ul-links {
+        margin-top: 57px;
+        margin-left: 13%;
+    }
+
+    ul.ul-links li {
+        padding-left: 40px;
+    }
+
+    .links {
+        font-size: 15px;
+    }
+
+    .modal {
+        padding-top: 85px;
+    }
+
+    .description {
+        margin-left: 587px;
+    }
+
+    .description-cl {
+        width: 757px;
+    }
+
+    .description-img {
+        width: 760px !important;
+    }
+
+    .line {
+        width: 91%;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1600px) {
+    .back {
+        margin-left: 44%;
+    }
+
+    .team {
+        margin-left: 150px;
+    }
+
+    .cart-doctor {
+        width: 366px;
+        height: 325px;
+    } 
+
+    .foto-doctor {
+        margin-left: 20px;
+    }
+
+    .foto-p-doctor, .foto-h-doctor {
+        margin-left: 160px;
+    }
+
+    .experience {
+        margin-left: 40px;
+    }
+
+    .foot {
+        top: 2670px;
+    }
+
+}
+
+@media (min-width: 1365px) and (max-width: 1800px) {
+
+    .foot-logo {
+        padding-left: 50px;
+    }
+
+    .foot-h {
+        padding-left: 160px;
+    }
+
+    .foot-p {
+        padding-left: 160px;
+    }
+
+    .politic {
+        padding-left: 160px;
+        padding-top: 39px;
+    }
+
+    .links-foot2 {
+        margin-left: 460px;
+    }
+
+    .links-foot3 {
+        margin-left: 735px;
+    }
+
+    .app2 {
+        margin-left: 72%;
+    }
+
+    .icon2 {
+        margin-left: 72%;
+    }
+
+    .email {
+        margin-left: 72%;
+    }
+
+    .made {
+        margin-left: 72%;
+    }
+
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+    .town {
+        margin-left: 96%;
+    }
+
+    /* .foot-form {
+        left: 45.2%;
+        width: 703px;
+    } */
+
+    .line {
+        width: 85%;
+    }
+
+    .description-cl {
+        width: 870px;
+    }
+
+}
+
+@media (min-width: 1601px) and (max-width: 1700px) {
+    .town {
+        margin-left: 85.0%;
+    }
+
+}
+
+@media (min-width: 1501px) and (max-width: 1858px) {
+    .ul-links {
+        margin-left: 7%;
+    }
+
+    .description-img {
+        width: 860px !important;
+    }
+
+}
+
+@media (min-width: 1701px) and (max-width: 1857px) {
+    .town {
+        margin-left: 86%;
+    }
+
+}
+
+@media (min-width: 1858px) and (max-width: 1870px) {
+    .town {
+        margin-left: 80%;
+    }
+
+}

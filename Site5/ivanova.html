@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ivanova.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Aibolit/Ivanova</title>
+    <link rel="shortcut icon" href="img/Combined Shape.png" type="image/x-icon">
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script> -->
+</head>
+
+<body>
+    <header class="line">
+        <img class="logo" src="img/Combined Shape.png" alt="logo">
+        <ul class="ul-links">
+            <li style="padding-left: 0px;"><a id="cabinet" class="links" href="#">ЛИЧНЫЙ КАБИНЕТ</a></li>
+            <li class="links dropdown">
+                <button class="dropbtn">О НАС</button>
+                <div class="dropdown-content">
+                    <a href="therapy.html#5">Услуги и цены</a>
+                    <a href="team.html">Коллектив</a>
+                    <a href="history.html">История компании</a>
+                </div>
+            </li>
+            <li><a class="links" href="news.html">НОВОСТИ И АКЦИИ</a></li>
+            <li><a class="links" href="contacts.html">КОНТАКТЫ</a></li>
+            <li><a class=" links" href="blog.html">БЛОГ</a></li>
+        </ul>
+        <span id="openDialog" class="town"><input id="city" class="town-main" value="ВАШ ГОРОД" readonly></span>
+    </header>
+    <main>
+        <div class="back">
+            <img style="transform: rotate(180deg); margin-top: -5px;" src="img/ic_arrow.png" alt="arrow">
+            <a style="cursor: url(img/Hand.png), auto; text-decoration: none;" href="index.html"><span
+                    class="link-history">НАЗАД</span></a>
+        </div>
+        <div class="ivanova">
+            <img src="img/Ellipse (13).png" alt="ivanova">
+            <p class="content">
+                ближайшая дата приема: 29.08.19
+            </p>
+            <button onclick="window.location.href = 'entry.html';" class="ivanova-r"><span
+                    class="r-b">ЗАПИСАТЬСЯ</span></button>
+            <button id="review" class="r-b2">ОСТАВИТЬ ОТЗЫВ</button>
+        </div>
+        <div class="doc">
+            <h4 class="ivanova-h">
+                Иванова Анастасия Андреевна
+            </h4>
+            <p class="ten">стаж 10 лет</p>
+            <p class="ten2">Терапия, УЗИ-диагностика, хирургия, ортопедия<br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur<br><br>
+                Пройденные курсы
+            </p>
+            <div class="null">Заглушка</div>
+            <div id="carousel3" class="carousel2">
+                <button style="cursor: url(img/Hand.png), auto;" class="arrow prev"><img
+                        style="margin-left: -41px; margin-top: -42px;" src="img/Oval (2).png" alt="left arrow"></button>
+                <div class="gallery">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="cartochka">
+                                    <div class="year">
+                                        2015
+                                    </div>
+                                    <div class="cvalif">
+                                        Повышение квалификации
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="cartochka">
+                                    <div class="year">
+                                        2015
+                                    </div>
+                                    <div class="cvalif">
+                                        Название курса
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="cartochka">
+                                    <div class="year">
+                                        2015
+                                    </div>
+                                    <div class="cvalif">
+                                        Международная конференция Конференция
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="cartochka">
+                                    <div class="year">
+                                        2015
+                                    </div>
+                                    <div class="cvalif">
+                                        Обучение по направлению хирургия
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button style="cursor: url(img/Hand.png), auto;" class="arrow next"><img
+                        style="margin-top: -37px; margin-left: -40px;" src="img/Oval.png" alt="arrow right"></button>
+            </div>
+        </div>
+        <div class="reviews">
+            <h3 class="reviews-h">Отзывы</h3>
+            <p class="reviews-p">101 отзыв</p>
+        </div>
+        <div class="reviews-card">
+            <img class="img-foto" src="img/фото.png" alt="">
+            <img class="smile" src="img/B01_4480d32e-5116-41c8-9638-3c8fd4c85415_large 1.png" alt="">
+            <p class="year user-p">пользоваель</p>
+            <h3 class="cvalif user-h">Виктория</h3>
+            <p class="year user-p user-p2">отзыв</p>
+            <p class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum, Lorem ip</p>
+            <img class="f-a" src="img/Ellipse (12).png" alt="">
+            <p class="year user-p user-p3">ответ</p>
+            <p class="data2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua!</p>
+        </div>
+        <div class="reviews-card">
+            <img class="img-foto" src="img/Ellipse (11).png" alt="">
+            <img class="smile" src="img/5be08fcbe2cd691de7cf73f1b3b684a8 1.png" alt="">
+            <p class="year user-p">пользоваель</p>
+            <h3 class="cvalif user-h">Александр</h3>
+            <p class="year user-p user-p2">отзыв</p>
+            <p class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+            <img class="f-a" src="img/Ellipse (12).png" alt="">
+            <p class="year user-p user-p3">ответ</p>
+            <p class="data2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua!</p>
+        </div>
+        <div class="reviews-card">
+            <img class="img-foto" src="img/Ellipse (10).png" alt="">
+            <img class="smile" src="img/Tear_From_One_Eye_Cat_Emoji_ios10_large 1.png" alt="">
+            <p class="year user-p">пользоваель</p>
+            <h3 class="cvalif user-h">Дмитрий</h3>
+            <p class="year user-p user-p2">отзыв</p>
+            <p class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+            <img class="f-a" src="img/Ellipse (12).png" alt="">
+            <p class="year user-p user-p3">ответ</p>
+            <p class="data2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua!</p>
+        </div>
+        <div class="reviews-card">
+            <img class="img-foto" src="img/Ellipse (9).png" alt="">
+            <img class="smile" src="img/90a856d434dd9df24d8d5fdf4bf3ce72 1.png" alt="">
+            <p class="year user-p">пользоваель</p>
+            <h3 class="cvalif user-h">Маргарита</h3>
+            <p class="year user-p user-p2">отзыв</p>
+            <p class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+            <img class="f-a" src="img/Ellipse (12).png" alt="">
+            <p class="year user-p user-p3">ответ</p>
+            <p class="data2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua!</p>
+        </div>
+    </main>
+    <footer class=" foot">
+        <img class="foot-logo" src="img/Subtract.png" alt="logo">
+        <div class="text-foot">
+            <h3 class="foot-h">Айболит</h3>
+            <p class="foot-p">ветеринарная клиника</p>
+        </div>
+        <a class="links-foot" href="#">
+            <div class="text-foot politic">
+                Политика<br>
+                конфиденциальности в<br>
+                отношении обработки<br>
+                персональных данных
+            </div>
+        </a>
+        <div class="links-foot2">
+            <a class="links-foot text-foot" href="index.html">Главная</a>
+            <a class="links-foot text-foot" href="therapy.html#5">Услуги и цены</a>
+            <a class="links-foot text-foot" href="hisrory.html">История компании</a>
+            <a class="links-foot text-foot" href="team.html#2">Наши специалисты</a>
+            <a class="links-foot text-foot" href="#">Вакансии</a>
+            <a class="links-foot text-foot" href="#">Реквизиты</a>
+            <a class="links-foot text-foot" href="#">Онлайн-оплата</a>
+        </div>
+        <div class="links-foot2 links-foot3">
+            <a class="links-foot text-foot" href="#">Отзывы</a>
+            <a class="links-foot text-foot" href="contacts.html">Контакты</a>
+            <a class="links-foot text-foot" href="#">Груминг-саллон</a>
+            <a class="links-foot text-foot" href="#">Косметика</a>
+            <a class="links-foot text-foot" href="news.html">Новости и акции</a>
+            <a class="links-foot text-foot" href="blog.html">Блог</a>
+        </div>
+        <div class="app2">
+            <a href="#"><img src="img/Group 5 (2).png" alt="app store"></a>
+            <a href="#"><img src="img/google-play-badge.png" alt="app store"></a>
+        </div>
+        <div class="icon2">
+            <a style="cursor: url(img/Hand.png), auto;padding-right: 50px;" href="https://www.instagram.com/"><img
+                    id="inst" src="img/inst (3).png" alt="instagram"></a>
+            <a style="cursor: url(img/Hand.png), auto;padding-right: 50px;" href="https://ru-ru.facebook.com/"><img
+                    id="fb" src="img/fb (3).png" alt="facebook"></a>
+            <a style="cursor: url(img/Hand.png), auto;padding-right: 50px;" href="https://vk.com/"><img id="vk"
+                    src="img/vk (3).png" alt="vk"></a>
+            <a style="cursor: url(img/Hand.png), auto;" href="https://www.youtube.com/"><img id="youtube"
+                    src="img/youtube (3).png" alt="youtube"></a>
+        </div>
+        <div class="text-foot email">
+            aibolit34.ru<br>
+            aibolit34@gmail.com
+        </div>
+        <div class="text-foot made">
+            Made with&emsp;&ensp;from UnitBean
+            <img class="heart" src="img/whatsapp-black-heart-emoji-11550121966iibkpdanml.png" alt="heart">
+        </div>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close2">&times;</span>
+            <h3 class="enter-dialog">Вход или<br>
+                регистрация</h3>
+                <!-- <span style="margin-top: 205px; margin-left: 43px; position: absolute;">+38(0</span> -->
+                <input type="tel" id="tel" name="phone" autocorrect="off" autocapitalize="off" required
+                    class="form-control tel-modal2 "
+                    placeholder="+38(000) 000-00-00" data-phone-pattern
+                    data-phone-clear="false" value="">
+            <button id="fur" type="submit" class="further3 proceed-btn3" disabled><a class="p-btn3"
+                    style="cursor: url(img/Hand.png), auto;" href="#">ДАЛЕЕ</a></button>
+        </div>
+    </div>
+    <div id="myModal2" class="modal">
+        <div class="modal-content modal-content2">
+            <span id="span" class="close3">&times;</span>
+            <h3 class="enter-dialog">Вход или<br>
+                регистрация</h3>
+            <div id="num" style="margin-left: 64px;">
+                <input type="number" name="number" class="form-control num" maxlength="1">
+                <input type="number" name="number" class="form-control num" maxlength="2">
+                <input type="number" name="number" class="form-control num" maxlength="3">
+                <input type="number" name="number" class="form-control num" maxlength="4">
+            </div>
+            <div id="deadline-message" class="deadline-message">
+                <a href="#">Отправить повторно</a>
+            </div>
+            <div id="countdown" class="countdown">
+                <div class="countdown-number">
+                    <span class="minutes countdown-time"></span>
+                    <span></span>
+                </div>
+                <div class="countdown-number">
+                    <span class="minutes countdown-time"></span>
+                    <span>:</span>
+                </div>
+                <div class="countdown-number">
+                    <span class="seconds countdown-time"></span>
+                    <span></span>
+                </div>
+            </div>
+            <button id="fur2" type="submit" class="further3 proceed-btn3" disabled><a class="p-btn3"
+                    style="cursor: url(img/Hand.png), auto;" href="Personal area.html">ГОТОВО</a></button>
+            <div id="back-back" class="back2"><a href="index.html">НАЗАД</a></div>
+        </div>
+    </div>
+    <div id="myModal3" class="modal modal2">
+        <div class="modal-content modal-content3">
+            <span class="close4">&times;</span>
+            <h3 class="enter-dialog">Оставить отзыв</h3>
+            <textarea placeholder="Отзыв" class="text" name="text" id="text" cols="30" rows="10"></textarea>
+            <button id="send" type="submit" name="but_1" class="further4 proceed-btn3" disabled><span
+                    class="p-btn3">ОТПРАВИТЬ</span></button>
+        </div>
+    </div>
+    <div id="myModal4" class="modal modal2">
+        <div class="modal-content modal-content4">
+            <span class="close5">&times;</span>
+            <p class="thanks">Спасибо! Мы рассмотрим Ваш отзыв
+                и опубликуем его в ближайшее время</p>
+        </div>
+    </div>
+
+    <!-- <script>
+        if (localStorage.getItem('#city') !== null) {
+            document.querySelector('#city').value = localStorage.getItem('#city');
+        } else {
+            document.querySelector('#city').value = `ВАШ ГОРОД`
+        }
+    </script>
+
+    <script>
+        // Get the modal
+        let modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        let btn = document.getElementById("cabinet");
+
+        // Get the <span> element that closes the modal
+        let span = document.getElementsByClassName("close2")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+    </script>
+
+    <script>
+        // Get the modal
+        let modal2 = document.getElementById("myModal2");
+
+        // Get the button that opens the modal
+        let btn2 = document.getElementById("fur");
+
+        // Get the <span> element that closes the modal
+        let span2 = document.getElementsByClassName("close3")[0];
+
+        let users = [
+
+            { id: '+38(000) 000-00-00', name: "Іван", name1: "Іванович", name2: "Іванко", tel: '+38(000) 000-00-00' },
+
+            { id: '+38(000) 000-00-01', name: "Ганна", name1: "Іванівна", name2: "Іванко", tel: '+38(000) 000-00-01' },
+
+            { id: '+38(000) 000-00-02', name: "Петро", name1: "Петрович", name2: "Петренко", tel: '+38(000) 000-00-02' },
+
+        ];
+
+        localStorage.setItem("data", JSON.stringify(users));
+
+        let res = JSON.parse(localStorage.getItem('data'));
+
+        let q;
+
+        // When the user clicks the button, open the modal 
+        btn2.onclick = function () {
+            let NumTel = document.getElementById('tel').value;
+            localStorage.setItem("telephone", NumTel);
+
+            if (q = (res.find(item => item.id === NumTel))) {
+
+                localStorage.setItem("data", JSON.stringify(users));
+
+            }
+
+            else {
+
+                let name = prompt('Введите имя');
+                let name1 = prompt('Введите отчество');
+                let name2 = prompt('Введите фамилию');
+
+                let obj = {
+
+                    id: NumTel,
+
+                    name: name,
+
+                    name1: name1,
+
+                    name2: name2,
+
+                    tel: NumTel,
+
+                }
+
+                users.push(obj);
+
+                localStorage.setItem("data", JSON.stringify(users));
+
+            }
+
+            modal2.style.display = "block";
+            modal.style.display = "none";
+            function getTimeRemaining(endtime) {
+                let t = Date.parse(endtime) - Date.parse(new Date());
+                let seconds = Math.floor((t / 1000) % 60);
+                let minutes = Math.floor((t / 1000 / 60) % 60);
+                return {
+                    total: t,
+                    minutes: minutes,
+                    seconds: seconds
+                };
+            }
+
+            function initializeClock(id, endtime) {
+                let clock = document.getElementById(id);
+                let minutesSpan = clock.querySelector(".minutes");
+                let secondsSpan = clock.querySelector(".seconds");
+
+                function updateClock() {
+                    let t = getTimeRemaining(endtime);
+
+                    if (t.total <= 0) {
+                        document.getElementById("countdown").className = "hidden";
+                        document.getElementById("deadline-message").className = "visible";
+                        clearInterval(timeinterval);
+                        return true;
+                    }
+
+
+                    minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+                    secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+                }
+
+                updateClock();
+                let timeinterval = setInterval(updateClock, 1000);
+            }
+
+            let deadline = new Date(Date.parse(new Date()) + 60 * 1000);
+            initializeClock("countdown", deadline);
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span2.onclick = function () {
+            modal2.style.display = "none";
+        }
+    </script>
+
+    <script>
+        let tel = document.querySelector('#tel');
+        tel.addEventListener('input', function (event) {
+            let button = document.querySelector('#fur');
+            button.disabled = (tel.value == '');
+            button.style.backgroundColor = '#FFC59E';
+        });
+        button.addEventListener('click', function (event) {
+            let tel = document.querySelector('#tel');
+            tel.value = '';
+            this.disabled = true
+        });
+    </script> -->
+
+    <script>
+        let num = document.querySelector('#num');
+        num.addEventListener('input', function (event) {
+            let button2 = document.querySelector('#fur2');
+            button2.disabled = (tel.value == '');
+            button2.style.backgroundColor = '#FFC59E';
+        });
+        button2.addEventListener('click', function (event) {
+            let num = document.querySelector('#num');
+            num.value = '';
+            this.disabled = true
+        });
+    </script>
+
+    <script>
+        /* конфигурация */
+        let width = 344; // ширина картинки
+        let count = 1.06; // видимое количество изображений
+
+        let list = carousel3.querySelector('ul');
+        let listElems = carousel3.querySelectorAll('li');
+
+        let position = 0; // положение ленты прокрутки
+
+        carousel3.querySelector('.prev').onclick = function () {
+            // сдвиг влево
+            position += width * count;
+            // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+            position = Math.min(position, 0)
+            list.style.marginLeft = position + 'px';
+        };
+
+        carousel3.querySelector('.next').onclick = function () {
+            // сдвиг вправо
+            position -= width * count;
+            // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+            position = Math.max(position, -width * (listElems.length - count));
+            list.style.marginLeft = position + 'px';
+        };
+    </script>
+
+    <script>
+        document.getElementById("deadline-message").onclick = function () {
+            document.getElementById("myModal").style.display = "block";
+            document.getElementById("myModal2").style.display = "none";
+        }
+    </script>
+
+    <script>
+        document.getElementById("send").onclick = function () {
+            document.getElementById("myModal4").style.display = "block";
+            document.getElementById("myModal3").style.display = "none";
+        }
+    </script>
+
+    <script>
+        // Get the modal
+        let modal4 = document.getElementById("myModal4");
+
+        // Get the <span> element that closes the modal
+        let span5 = document.getElementsByClassName("close5")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span5.onclick = function () {
+            modal4.style.display = "none";
+        }
+    </script>
+
+    <script>
+        // Get the modal
+        let modal3 = document.getElementById("myModal3");
+
+        // Get the button that opens the modal
+        let btn3 = document.getElementById("review");
+
+        // Get the <span> element that closes the modal
+        let span4 = document.getElementsByClassName("close4")[0];
+
+        // When the user clicks the button, open the modal 
+        btn3.onclick = function () {
+            modal3.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span4.onclick = function () {
+            modal3.style.display = "none";
+        }
+    </script>
+
+    <script>
+        let d = document,
+            but = d.getElementsByName('but_1')[0];
+        [].forEach.call(d.querySelectorAll('textarea'), function (tarea) {
+            tarea.addEventListener('keyup', function () {
+                but.disabled = false;
+                but.style.backgroundColor = '#FFC59E';
+            }, false);
+        });
+    </script>
+
+    <script src="ivanova.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
